@@ -44,7 +44,10 @@ const Todo = () => {
 
   return (
     <>
-      <div className="container-fluid" style={{ paddingTop: "50px" }}>
+      <div
+        className="container-fluid"
+        style={{ paddingTop: "50px", paddingBottom: "100px" }}
+      >
         <div className="row">
           <div className="col-md-6">
             <img id="logo" src="/Images/TaskLogo.jpg" alt="Logo" />
