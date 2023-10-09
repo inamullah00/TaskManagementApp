@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/todo" Component={Todo}></Route>
+        <Route path="/" element={<Todo />}></Route>
       </Routes>
     </>
   );
