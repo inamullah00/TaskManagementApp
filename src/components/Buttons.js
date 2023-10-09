@@ -1,5 +1,3 @@
-import react from "react";
-
 const Buttons = ({ type, value, func, text }) => {
   return (
     <>

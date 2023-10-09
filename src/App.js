@@ -1,5 +1,5 @@
 import Todo from "./components/Todo";
-import { Route, Routes, Link } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
