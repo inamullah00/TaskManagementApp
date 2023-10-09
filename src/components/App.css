@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+  background-color: bisque;
+  padding: 50px;
+}
+.calculator {
+  text-align: center;
+  background-color: rgb(1, 72, 72);
+  padding: 50px;
+  color: white;
+}
+
+.card {
+  background-color: #fff; /* White card background color */
+  width: 30%; /* Adjust card width as needed */
+  margin: 20px; /* Add spacing around cards */
+  border: 1px solid #e0e0e0; /* Light gray border */
+  border-radius: 8px; /* Rounded card corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.card title {
+  letter-spacing: 2px;
+  font-size: 21px;
+}
+.card img {
+  width: 100%;
+}
+.card-body {
+  padding: 16px;
+  background: white;
+}
+.card a {
+  color: aliceblue;
+  background: black;
+  padding: 8px;
+}
+
+/* Header Component CSS */
+
+/* #logo {
+  width: 26%;
+  border-radius: 60%;
+} */
+
+form input {
+  display: block;
+
+  padding: 17px;
+  width: 95%;
+  margin: 10px;
+}
+form {
+  position: relative;
+  left: 562px;
+  width: 32%;
+  padding: 40px;
+  background-color: gray;
+  top: 50px;
+}
+form button {
+  margin: 10px;
+  padding: 13px;
+  width: 95%;
+  background: antiquewhite;
+  color: unset;
+  font-size: 22px;
+}
+
+/* Todo App css */
+
+.TodoApp {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 20vh;
+  width: 70%;
+  padding-top: 70px;
+}
+.TodoApp .form-control {
+  padding: 20px;
+  width: 30%;
+  border-top: none;
+  border-bottom: 2px solid;
+  border-left: none;
+  border-right: none;
+}
+.TodoApp button {
+  color: WHITE;
+  padding: 9px;
+}
+
+.TodoApp span {
+  color: red;
+  font-weight: 800;
+  position: absolute;
+  margin-top: 7%;
+}
+
+/* ----------------- */
+#logo {
+  border-radius: 100%;
+  width: 22%;
+}
+
+.model {
+  display: flex;
+}
+.modal-dialog {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .TodoApp {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 20vh;
+    width: 100%;
+    padding-top: 70px;
+    margin-top: 20px;
+  }
+  #logo {
+    border-radius: 100%;
+    width: 20%;
+    position: absolute;
+    left: 40%;
+  }
+}
