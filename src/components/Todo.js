@@ -47,7 +47,7 @@ const Todo = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-6">
-            <img id="logo" src="/Images/TaskLogo.jpg" alt="Logo" />
+            {/* <img id="logo" src="/Images/TaskLogo.jpg" alt="Logo" /> */}
           </div>
 
           <div className="col-md-6">
