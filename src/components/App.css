@@ -108,6 +108,7 @@ form button {
 }
 .modal-dialog {
   width: 100%;
+  box-shadow: 1px 11px 29px -3px lightslategray;
 }
 
 @media (max-width: 767px) {
@@ -117,7 +118,7 @@ form button {
     align-items: center;
     height: 20vh;
     width: 100%;
-    padding-top: 70px;
+    padding-top: 84px;
     margin-top: 20px;
   }
   #logo {
@@ -125,5 +126,15 @@ form button {
     width: 20%;
     position: absolute;
     left: 40%;
+  }
+  .TodoApp button {
+    color: WHITE;
+    padding: 8px;
+  }
+  .TodoApp span {
+    color: red;
+    font-weight: 500;
+    position: absolute;
+    margin-top: 15%;
   }
 }

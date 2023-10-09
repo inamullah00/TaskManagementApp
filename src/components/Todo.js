@@ -5,7 +5,7 @@ import Modelmap from "./Modelmap";
 
 const Todo = () => {
   const [Item, setItem] = useState("");
-  const [noteItem, setNoteItem] = useState(["HTML"]);
+  const [noteItem, setNoteItem] = useState(["Wellcome "]);
   const [message, setMessage] = useState("");
 
   const add = () => {
@@ -44,10 +44,10 @@ const Todo = () => {
 
   return (
     <>
-      <div className="container-fluid">
+      <div className="container-fluid" style={{ paddingTop: "50px" }}>
         <div className="row">
           <div className="col-md-6">
-            {/* <img id="logo" src="/Images/TaskLogo.jpg" alt="Logo" /> */}
+            <img id="logo" src="/Images/TaskLogo.jpg" alt="Logo" />
           </div>
 
           <div className="col-md-6">
